@@ -1,0 +1,162 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-size: 20px;
+}
+
+a {
+  color: white;
+  font-size: 16px;
+  padding: 10px 15px;
+  text-decoration: none;
+}
+.img-header {
+  width: 350px;
+  height: auto;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.header {
+  width: 100%;
+  min-height: 40px;
+  background-color: #d24b1c;
+  align-items: center;
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+  padding: 40px 20px;
+  gap: 8px 15px;
+}
+
+.header-button {
+  display: flex;
+  gap: 10px 15px;
+}
+
+.button {
+  font-size: 16px;
+  padding: 10px 15px;
+  background-color: transparent;
+  border: 2px solid transparent;
+  color: white;
+  cursor: pointer;
+  transition: 0.4s;
+}
+
+.img-title {
+  width: 200px;
+  height: auto;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.sectionTitle {
+  font-size: 26px;
+  font-family: Arial, Helvetica, sans-serif;
+  text-align: center;
+  padding: 20px;
+}
+
+.sectionDescription {
+  text-align: center;
+  color: #383838;
+  padding: 20px;
+}
+
+.container {
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+}
+
+.gridContainer {
+  display: grid;
+  grid-template-columns: 3fr;
+  grid-template-areas: "mainContent mainContent mainContent";
+  padding: 20px;
+  flex: 1 0 auto;
+}
+
+.mainContent {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 10px;
+  grid-area: mainContent;
+}
+
+.img-card {
+  width: 100%;
+  height: 180px;
+  border-radius: 10px;
+}
+
+.card {
+  width: 280px;
+  height: 380px;
+  border: 2px solid transparent;
+  border-radius: 10px;
+  transition: 0.5s;
+  cursor: pointer;
+}
+
+.card:hover {
+  border-color: #de5100;
+}
+
+.paragraph-1 {
+  font-family: Arial, Helvetica, sans-serif;
+  padding: 10px;
+  color: black;
+  text-align: center;
+}
+
+.paragraph-2 {
+  padding: 10px;
+  color: black;
+  text-align: center;
+}
+
+.footer {
+  width: auto;
+  padding: 10px;
+  font-family: monospace;
+  text-align: center;
+  font-size: 2em;
+}
+
+.footer-button {
+  display: flex;
+  gap: 10px 15px;
+}
+
+.button-footer {
+  font-size: 16px;
+  padding: 10px 15px;
+  background-color: transparent;
+  border: 2px solid transparent;
+  color: white;
+  cursor: pointer;
+  transition: 0.4s;
+}
+
+.footer {
+  width: 100%;
+  min-height: 40px;
+  background-color: #de5100;
+  align-items: center;
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+  padding: 40px 20px;
+  gap: 8px 15px;
+}
+
+.buttonFooter {
+  color: white;
+  text-decoration: none;
+}
